@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height:70px;
+    background-color: rgb(26, 116, 252);
+}
+.logo img{
+    height: 30px;
+    width: 95px;
+    margin:20px 10px 0px 250px ;
+}
+.logo input{
+    padding: 14px;
+    width: 680px;
+    position: relative;
+    top: -10px;
+    border: 0px;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding: 5px;
+    font-weight: 200;
+    color: grey;
+    font-size: 17px;
+}
+.search{
+    position: relative;
+   top: -45px;
+    left: 1020px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+button{
+    font-size: larger;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    margin:0px 0px 0px 60px;
+   height: 40px;
+   width: 160px;
+   background-color: white;
+   border: 0px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.menu{
+    height:180px;
+}
+ul li {
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    float:left;
+    margin: 20px 40px 10px 45px;
+}
+ul li:hover{
+    color: rgb(26, 116, 252);
+}
+ul li a img:hover{
+    height:105px;
+    width: 105px;
+    transition: 0.5s;
+}
+.hero{
+    margin: 20px 30px 20px 30px;
+    height: 200px;
+}
+.gallery ul li{
+    margin: 10px 35px 20px 30px ;
+    background-color: antiquewhite;
+    height:250px;
+    width: 250px;
+    line-height: 250px;
+    text-align: center;
+}
+.footer{
+    margin: 870px 0px 10px 0px;
+    background-color: rgb(40, 158, 254);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    font-weight: bold;
+}
